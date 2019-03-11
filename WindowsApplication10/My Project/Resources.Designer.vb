@@ -59,5 +59,65 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property discardPile() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("discardPile", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property DrawPile() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("DrawPile", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property faschist_Brett_5_6P() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("faschist_Brett_5_6P", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property faschist_Brett_7_8P() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("faschist_Brett_7_8P", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property faschist_Brett_9_10P() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("faschist_Brett_9_10P", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property liberal_Brett() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("liberal_Brett", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
     End Module
 End Namespace

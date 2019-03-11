@@ -10,7 +10,7 @@ Public Class Host
     Dim streamr As StreamReader
     Dim server As TcpListener
     Dim client As New TcpClient
-    Dim ipendpoint As IPEndPoint = New IPEndPoint(IPAddress.Any, 88)
+    Dim ipendpoint As IPEndPoint = New IPEndPoint(IPAddress.Any, 8888)
     Dim t As New Threading.Thread(AddressOf Main)
 
 
@@ -60,6 +60,10 @@ Public Class Host
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
 
     End Sub
 End Class
