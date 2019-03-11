@@ -1,6 +1,6 @@
 ﻿Public Class Host_Client
     Private Sub Host_Client_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
-        Form1.Show()
+        Hauptmenü.Show()
     End Sub
 
     Private Sub Host_Client_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -8,7 +8,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Form1.Show()
+        Hauptmenü.Show()
         Me.Close()
     End Sub
 

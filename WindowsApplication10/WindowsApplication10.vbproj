@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F52E92EC-F30C-4FD1-88F1-BCB580DE9ECC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApplication10.My.MyApplication</StartupObject>
-    <RootNamespace>WindowsApplication10</RootNamespace>
-    <AssemblyName>WindowsApplication10</AssemblyName>
+    <StartupObject>SecretHitler.My.MyApplication</StartupObject>
+    <RootNamespace>SecretHitler</RootNamespace>
+    <AssemblyName>Secret Hitler</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>WindowsApplication10.xml</DocumentationFile>
+    <DocumentationFile>Secret Hitler.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>WindowsApplication10.xml</DocumentationFile>
+    <DocumentationFile>Secret Hitler.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -71,11 +71,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Hauptmenü.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Hauptmenü.Designer.vb">
+      <DependentUpon>Hauptmenü.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Host.Designer.vb">
@@ -113,8 +113,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Hauptmenü.resx">
+      <DependentUpon>Hauptmenü.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Host.resx">
       <DependentUpon>Host.vb</DependentUpon>
