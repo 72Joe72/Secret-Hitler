@@ -39,4 +39,9 @@ Public Class IPMann
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
     End Sub
+
+    Private Sub IPMann_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        'test
+    End Sub
 End Class
