@@ -105,6 +105,12 @@
     <Compile Include="Host.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Host2%28Reworked%29.Designer.vb">
+      <DependentUpon>Host2%28Reworked%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Host2%28Reworked%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Host_Client.Designer.vb">
       <DependentUpon>Host_Client.vb</DependentUpon>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Host.resx">
       <DependentUpon>Host.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Host2%28Reworked%29.resx">
+      <DependentUpon>Host2%28Reworked%29.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Host_Client.resx">
       <DependentUpon>Host_Client.vb</DependentUpon>

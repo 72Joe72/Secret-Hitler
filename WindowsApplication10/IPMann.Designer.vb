@@ -29,6 +29,10 @@ Partial Class IPMann
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -62,6 +66,7 @@ Partial Class IPMann
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(73, 20)
         Me.TextBox2.TabIndex = 3
+        Me.TextBox2.Text = "8888"
         '
         'Label3
         '
@@ -90,11 +95,48 @@ Partial Class IPMann
         Me.Button2.Text = "Verbinden"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(12, 145)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(111, 13)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Text = "Geheimer Testbereich"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(12, 172)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(148, 20)
+        Me.TextBox3.TabIndex = 8
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(180, 169)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 9
+        Me.Button3.Text = "Senden"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(12, 210)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(243, 218)
+        Me.TextBox4.TabIndex = 10
+        '
         'IPMann
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(267, 98)
+        Me.ClientSize = New System.Drawing.Size(267, 440)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
@@ -118,4 +160,8 @@ Partial Class IPMann
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Button3 As Button
+    Friend WithEvents TextBox4 As TextBox
 End Class
