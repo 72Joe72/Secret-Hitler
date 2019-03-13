@@ -76,7 +76,24 @@ Public Class Connect
     End Sub
 
     Private Sub AddItem(ByVal s As String)
-        RichTextBox1.Text = RichTextBox1.Text + s + vbCrLf
+
+
+        'Connect Antwort des Servers
+        Try
+            Dim Antwort() As String = s.Split(":")
+            If Antwort(0) = 
+                End If
+
+
+        Catch ex As Exception
+
+        End Try
+
+
+
+
+
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
