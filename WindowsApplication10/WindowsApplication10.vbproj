@@ -92,6 +92,12 @@
     <Compile Include="Client.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Connect.Designer.vb">
+      <DependentUpon>Connect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Connect.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Hauptmenü.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -105,22 +111,10 @@
     <Compile Include="Host.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Host2%28Reworked%29.Designer.vb">
-      <DependentUpon>Host2%28Reworked%29.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Host2%28Reworked%29.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Host_Client.Designer.vb">
       <DependentUpon>Host_Client.vb</DependentUpon>
     </Compile>
     <Compile Include="Host_Client.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IPMann.Designer.vb">
-      <DependentUpon>IPMann.vb</DependentUpon>
-    </Compile>
-    <Compile Include="IPMann.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -143,20 +137,17 @@
     <EmbeddedResource Include="Client.resx">
       <DependentUpon>Client.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Connect.resx">
+      <DependentUpon>Connect.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hauptmenü.resx">
       <DependentUpon>Hauptmenü.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Host.resx">
       <DependentUpon>Host.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Host2%28Reworked%29.resx">
-      <DependentUpon>Host2%28Reworked%29.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Host_Client.resx">
       <DependentUpon>Host_Client.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IPMann.resx">
-      <DependentUpon>IPMann.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -201,6 +192,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\faschist Brett 9-10P.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Server P8888Hidden.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ServerP8888.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
