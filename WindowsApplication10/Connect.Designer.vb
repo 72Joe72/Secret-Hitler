@@ -29,13 +29,11 @@ Partial Class Connect
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -99,39 +97,6 @@ Partial Class Connect
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "IP-Adresse:"
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(180, 304)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 16
-        Me.Button3.Text = "Senden"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(12, 307)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(148, 20)
-        Me.TextBox3.TabIndex = 15
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 280)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(111, 13)
-        Me.Label4.TabIndex = 14
-        Me.Label4.Text = "Geheimer Testbereich"
-        '
-        'RichTextBox1
-        '
-        Me.RichTextBox1.Location = New System.Drawing.Point(12, 333)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(243, 230)
-        Me.RichTextBox1.TabIndex = 18
-        Me.RichTextBox1.Text = ""
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -160,18 +125,32 @@ Partial Class Connect
         Me.NumericUpDown1.TabIndex = 22
         Me.NumericUpDown1.Value = New Decimal(New Integer() {2, 0, 0, 0})
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(124, 101)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(73, 13)
+        Me.Label8.TabIndex = 23
+        Me.Label8.Text = "Spieler Name:"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(127, 122)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(128, 20)
+        Me.TextBox4.TabIndex = 24
+        '
         'Connect
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(276, 575)
+        Me.ClientSize = New System.Drawing.Size(276, 171)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.RichTextBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
@@ -194,11 +173,9 @@ Partial Class Connect
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label4 As Label
-    Friend WithEvents RichTextBox1 As RichTextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents NumericUpDown1 As NumericUpDown
+    Friend WithEvents Label8 As Label
+    Friend WithEvents TextBox4 As TextBox
 End Class
