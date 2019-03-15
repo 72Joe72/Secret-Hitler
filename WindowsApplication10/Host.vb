@@ -788,17 +788,1147 @@ Public Class Host
 
             'Rollen Verteilung
 
+            If AError = 5 Then
+                If SS1 = 1 Then
+                    Hauptmenü.SPS1 = 1
+                End If
+                If SS1 = 2 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 3 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 4 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 5 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+
+                If SS2 = 1 Then
+                    Hauptmenü.SPS2 = 1
+                End If
+                If SS2 = 2 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 3 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 4 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 5 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+
+                If SS3 = 1 Then
+                    Hauptmenü.SPS3 = 1
+                End If
+                If SS3 = 2 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 3 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 4 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 5 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+
+                If SS4 = 1 Then
+                    Hauptmenü.SPS4 = 1
+                End If
+                If SS4 = 2 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 3 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 4 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 5 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+
+                If SS5 = 1 Then
+                    Hauptmenü.SPS5 = 1
+                End If
+                If SS5 = 2 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 3 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 4 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 5 Then
+                    Hauptmenü.SPS5 = 3
+                End If
 
 
+            End If
+
+            If AError = 6 Then
+                If SS1 = 1 Then
+                    Hauptmenü.SPS1 = 1
+                End If
+                If SS1 = 2 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 3 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 4 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 5 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 6 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+
+                If SS2 = 1 Then
+                    Hauptmenü.SPS2 = 1
+                End If
+                If SS2 = 2 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 3 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 4 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 5 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 6 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+
+                If SS3 = 1 Then
+                    Hauptmenü.SPS3 = 1
+                End If
+                If SS3 = 2 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 3 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 4 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 5 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 6 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+
+                If SS4 = 1 Then
+                    Hauptmenü.SPS4 = 1
+                End If
+                If SS4 = 2 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 3 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 4 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 5 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 6 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+
+                If SS5 = 1 Then
+                    Hauptmenü.SPS5 = 1
+                End If
+                If SS5 = 2 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 3 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 4 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 5 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 6 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+
+                If SS6 = 1 Then
+                    Hauptmenü.SPS6 = 1
+                End If
+                If SS6 = 2 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 3 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 4 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 5 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 6 Then
+                    Hauptmenü.SPS6 = 3
+                End If
 
 
+            End If
+
+            If AError = 7 Then
+                If SS1 = 1 Then
+                    Hauptmenü.SPS1 = 1
+                End If
+                If SS1 = 2 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 3 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 4 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 5 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 6 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 7 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+
+                If SS2 = 1 Then
+                    Hauptmenü.SPS2 = 1
+                End If
+                If SS2 = 2 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 3 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 4 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 5 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 6 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 7 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+
+                If SS3 = 1 Then
+                    Hauptmenü.SPS3 = 1
+                End If
+                If SS3 = 2 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 3 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 4 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 5 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 6 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 7 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+
+                If SS4 = 1 Then
+                    Hauptmenü.SPS4 = 1
+                End If
+                If SS4 = 2 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 3 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 4 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 5 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 6 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 7 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+
+                If SS5 = 1 Then
+                    Hauptmenü.SPS5 = 1
+                End If
+                If SS5 = 2 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 3 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 4 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 5 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 6 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 7 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+
+                If SS6 = 1 Then
+                    Hauptmenü.SPS6 = 1
+                End If
+                If SS6 = 2 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 3 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 4 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 5 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 6 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 7 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+
+                If SS7 = 1 Then
+                    Hauptmenü.SPS7 = 1
+                End If
+                If SS7 = 2 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 3 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 4 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 5 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 6 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 7 Then
+                    Hauptmenü.SPS7 = 3
+                End If
 
 
+            End If
+
+            If AError = 8 Then
+                If SS1 = 1 Then
+                    Hauptmenü.SPS1 = 1
+                End If
+                If SS1 = 2 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 3 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 4 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 5 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 6 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 7 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 8 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+
+                If SS2 = 1 Then
+                    Hauptmenü.SPS2 = 1
+                End If
+                If SS2 = 2 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 3 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 4 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 5 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 6 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 7 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 8 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+
+                If SS3 = 1 Then
+                    Hauptmenü.SPS3 = 1
+                End If
+                If SS3 = 2 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 3 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 4 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 5 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 6 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 7 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 8 Then
+                    Hauptmenü.SPS3 = 3
+                End If
 
 
+                If SS4 = 1 Then
+                    Hauptmenü.SPS4 = 1
+                End If
+                If SS4 = 2 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 3 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 4 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 5 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 6 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 7 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 8 Then
+                    Hauptmenü.SPS4 = 3
+                End If
 
 
+                If SS5 = 1 Then
+                    Hauptmenü.SPS5 = 1
+                End If
+                If SS5 = 2 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 3 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 4 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 5 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 6 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 7 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 8 Then
+                    Hauptmenü.SPS5 = 3
+                End If
 
+
+                If SS6 = 1 Then
+                    Hauptmenü.SPS6 = 1
+                End If
+                If SS6 = 2 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 3 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 4 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 5 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 6 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 7 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 8 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+
+
+                If SS7 = 1 Then
+                    Hauptmenü.SPS7 = 1
+                End If
+                If SS7 = 2 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 3 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 4 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 5 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 6 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 7 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 8 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+
+
+                If SS8 = 1 Then
+                    Hauptmenü.SPS8 = 1
+                End If
+                If SS8 = 2 Then
+                    Hauptmenü.SPS8 = 2
+                End If
+                If SS8 = 3 Then
+                    Hauptmenü.SPS8 = 2
+                End If
+                If SS8 = 4 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 5 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 6 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 7 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 8 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+            End If
+
+            If AError = 9 Then
+                If SS1 = 1 Then
+                    Hauptmenü.SPS1 = 1
+                End If
+                If SS1 = 2 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 3 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 4 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 5 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 6 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 7 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 8 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 9 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+
+
+                If SS2 = 1 Then
+                    Hauptmenü.SPS2 = 1
+                End If
+                If SS2 = 2 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 3 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 4 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 5 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 6 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 7 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 8 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 9 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+
+
+                If SS3 = 1 Then
+                    Hauptmenü.SPS3 = 1
+                End If
+                If SS3 = 2 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 3 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 4 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 5 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 6 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 7 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 8 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 9 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+
+
+                If SS4 = 1 Then
+                    Hauptmenü.SPS4 = 1
+                End If
+                If SS4 = 2 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 3 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 4 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 5 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 6 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 7 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 8 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 9 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+
+
+                If SS5 = 1 Then
+                    Hauptmenü.SPS5 = 1
+                End If
+                If SS5 = 2 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 3 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 4 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 5 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 6 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 7 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 8 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 9 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+
+
+                If SS6 = 1 Then
+                    Hauptmenü.SPS6 = 1
+                End If
+                If SS6 = 2 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 3 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 4 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 5 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 6 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 7 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 8 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 9 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+
+                If SS7 = 1 Then
+                    Hauptmenü.SPS7 = 1
+                End If
+                If SS7 = 2 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 3 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 4 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 5 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 6 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 7 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 8 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 9 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+
+
+                If SS8 = 1 Then
+                    Hauptmenü.SPS8 = 1
+                End If
+                If SS8 = 2 Then
+                    Hauptmenü.SPS8 = 2
+                End If
+                If SS8 = 3 Then
+                    Hauptmenü.SPS8 = 2
+                End If
+                If SS8 = 4 Then
+                    Hauptmenü.SPS8 = 2
+                End If
+                If SS8 = 5 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 6 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 7 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 8 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 9 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+
+
+                If SS9 = 1 Then
+                    Hauptmenü.SPS9 = 1
+                End If
+                If SS9 = 2 Then
+                    Hauptmenü.SPS9 = 2
+                End If
+                If SS9 = 3 Then
+                    Hauptmenü.SPS9 = 2
+                End If
+                If SS9 = 4 Then
+                    Hauptmenü.SPS9 = 2
+                End If
+                If SS9 = 5 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 6 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 7 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 8 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 9 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+            End If
+
+            If AError = 10 Then
+                If SS1 = 1 Then
+                    Hauptmenü.SPS1 = 1
+                End If
+                If SS1 = 2 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 3 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 4 Then
+                    Hauptmenü.SPS1 = 2
+                End If
+                If SS1 = 5 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 6 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 7 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 8 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 9 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+                If SS1 = 10 Then
+                    Hauptmenü.SPS1 = 3
+                End If
+
+                If SS2 = 1 Then
+                    Hauptmenü.SPS2 = 1
+                End If
+                If SS2 = 2 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 3 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 4 Then
+                    Hauptmenü.SPS2 = 2
+                End If
+                If SS2 = 5 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 6 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 7 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 8 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 9 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+                If SS2 = 10 Then
+                    Hauptmenü.SPS2 = 3
+                End If
+
+                If SS3 = 1 Then
+                    Hauptmenü.SPS3 = 1
+                End If
+                If SS3 = 2 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 3 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 4 Then
+                    Hauptmenü.SPS3 = 2
+                End If
+                If SS3 = 5 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 6 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 7 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 8 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 9 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+                If SS3 = 10 Then
+                    Hauptmenü.SPS3 = 3
+                End If
+
+                If SS4 = 1 Then
+                    Hauptmenü.SPS4 = 1
+                End If
+                If SS4 = 2 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 3 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 4 Then
+                    Hauptmenü.SPS4 = 2
+                End If
+                If SS4 = 5 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 6 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 7 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 8 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 9 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+                If SS4 = 10 Then
+                    Hauptmenü.SPS4 = 3
+                End If
+
+                If SS5 = 1 Then
+                    Hauptmenü.SPS5 = 1
+                End If
+                If SS5 = 2 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 3 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 4 Then
+                    Hauptmenü.SPS5 = 2
+                End If
+                If SS5 = 5 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 6 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 7 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 8 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 9 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+                If SS5 = 10 Then
+                    Hauptmenü.SPS5 = 3
+                End If
+
+                If SS6 = 1 Then
+                    Hauptmenü.SPS6 = 1
+                End If
+                If SS6 = 2 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 3 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 4 Then
+                    Hauptmenü.SPS6 = 2
+                End If
+                If SS6 = 5 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 6 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 7 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 8 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 9 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+                If SS6 = 10 Then
+                    Hauptmenü.SPS6 = 3
+                End If
+
+                If SS7 = 1 Then
+                    Hauptmenü.SPS7 = 1
+                End If
+                If SS7 = 2 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 3 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 4 Then
+                    Hauptmenü.SPS7 = 2
+                End If
+                If SS7 = 5 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 6 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 7 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 8 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 9 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+                If SS7 = 10 Then
+                    Hauptmenü.SPS7 = 3
+                End If
+
+                If SS8 = 1 Then
+                    Hauptmenü.SPS8 = 1
+                End If
+                If SS8 = 2 Then
+                    Hauptmenü.SPS8 = 2
+                End If
+                If SS8 = 3 Then
+                    Hauptmenü.SPS8 = 2
+                End If
+                If SS8 = 4 Then
+                    Hauptmenü.SPS8 = 2
+                End If
+                If SS8 = 5 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 6 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 7 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 8 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 9 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+                If SS8 = 10 Then
+                    Hauptmenü.SPS8 = 3
+                End If
+
+                If SS9 = 1 Then
+                    Hauptmenü.SPS9 = 1
+                End If
+                If SS9 = 2 Then
+                    Hauptmenü.SPS9 = 2
+                End If
+                If SS9 = 3 Then
+                    Hauptmenü.SPS9 = 2
+                End If
+                If SS9 = 4 Then
+                    Hauptmenü.SPS9 = 2
+                End If
+                If SS9 = 5 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 6 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 7 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 8 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 9 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+                If SS9 = 10 Then
+                    Hauptmenü.SPS9 = 3
+                End If
+
+                If SS10 = 1 Then
+                    Hauptmenü.SPS10 = 1
+                End If
+                If SS10 = 2 Then
+                    Hauptmenü.SPS10 = 2
+                End If
+                If SS10 = 3 Then
+                    Hauptmenü.SPS10 = 2
+                End If
+                If SS10 = 4 Then
+                    Hauptmenü.SPS10 = 2
+                End If
+                If SS10 = 5 Then
+                    Hauptmenü.SPS10 = 3
+                End If
+                If SS10 = 6 Then
+                    Hauptmenü.SPS10 = 3
+                End If
+                If SS10 = 7 Then
+                    Hauptmenü.SPS10 = 3
+                End If
+                If SS10 = 8 Then
+                    Hauptmenü.SPS10 = 3
+                End If
+                If SS10 = 9 Then
+                    Hauptmenü.SPS10 = 3
+                End If
+                If SS10 = 10 Then
+                    Hauptmenü.SPS10 = 3
+                End If
+
+
+            End If
 
         Else
             MsgBox("Es sind Nicht genug spieler Verbunden um das Spiel zu starten !!!")
