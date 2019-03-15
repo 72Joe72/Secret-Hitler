@@ -174,6 +174,32 @@ Public Class Connect
             End If
         End If
 
+        'SaveState
+        Dim SPS() As String = s.Split(":")
+        If SPS(0) = "SSB" Then
+
+            Hauptmenü.NAM1 = SPS(2)
+            Hauptmenü.NAM2 = SPS(4)
+            Hauptmenü.NAM3 = SPS(6)
+            Hauptmenü.NAM4 = SPS(8)
+            Hauptmenü.NAM5 = SPS(10)
+            Hauptmenü.NAM6 = SPS(12)
+            Hauptmenü.NAM7 = SPS(14)
+            Hauptmenü.NAM8 = SPS(16)
+            Hauptmenü.NAM9 = SPS(18)
+            Hauptmenü.NAM10 = SPS(20)
+            Hauptmenü.SPS1 = SPS(22)
+            Hauptmenü.SPS2 = SPS(24)
+            Hauptmenü.SPS3 = SPS(26)
+            Hauptmenü.SPS4 = SPS(28)
+            Hauptmenü.SPS5 = SPS(30)
+            Hauptmenü.SPS6 = SPS(32)
+            Hauptmenü.SPS7 = SPS(34)
+            Hauptmenü.SPS8 = SPS(36)
+            Hauptmenü.SPS9 = SPS(38)
+            Hauptmenü.SPS10 = SPS(40)
+
+        End If
 
 
 
