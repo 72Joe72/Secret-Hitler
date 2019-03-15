@@ -118,6 +118,8 @@ Public Class Host
     Public NAM8 As String
     Public NAM9 As String
     Public NAM10 As String
+    Public ass As String
+
     'Name
 
     'Überprüfung ob Der Spieler Bereits existiert oder nicht
@@ -378,6 +380,7 @@ Public Class Host
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        'Namens Aktuallisierung
         Label1.Text = "1. " + Hauptmenü.NAM1
         Label3.Text = "2. " + Hauptmenü.NAM2
         Label4.Text = "3. " + Hauptmenü.NAM3
@@ -438,7 +441,7 @@ Public Class Host
         SS7 = "SS7:" + Hauptmenü.SPS7 + ":"
         SS8 = "SS8:" + Hauptmenü.SPS8 + ":"
         SS9 = "SS9:" + Hauptmenü.SPS9 + ":"
-        SS10 = "SS20:" + Hauptmenü.SPS10 + ":"
+        SS10 = "SS10:" + Hauptmenü.SPS10 + ":"
 
         Hauptmenü.SaveState = "SSB:" + SN1 + SN2 + SN3 + SN4 + SN5 + SN6 + SN7 + SN8 + SN9 + SN10 + SS1 + SS2 + SS3 + SS4 + SS5 + SS6 + SS7 + SS8 + SS9 + SS10
 
@@ -458,6 +461,17 @@ Public Class Host
 
 
 
+        'SaveState
+        Try
+
+            If Not ass = Hauptmenü.SaveState Then
+                ass = Hauptmenü.SaveState
+                streamw.Write(Hauptmenü.SaveState + vbCrLf)
+                streamw.Flush()
+            End If
+        Catch ex As Exception
+
+        End Try
 
 
     End Sub
@@ -615,8 +629,7 @@ Public Class Host
             End If
         End If
 
-        MsgBox(AError)
-        MsgBox(BError)
+
 
 
         'Ab hier wirds cancer
@@ -1933,6 +1946,10 @@ Public Class Host
         Else
             MsgBox("Es sind Nicht genug spieler Verbunden um das Spiel zu starten !!!")
         End If
+
+    End Sub
+
+    Private Sub Host_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 

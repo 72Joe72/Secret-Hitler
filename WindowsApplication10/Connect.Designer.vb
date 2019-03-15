@@ -137,6 +137,7 @@ Partial Class Connect
         'TextBox4
         '
         Me.TextBox4.Location = New System.Drawing.Point(127, 122)
+        Me.TextBox4.MaxLength = 10
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(128, 20)
         Me.TextBox4.TabIndex = 24

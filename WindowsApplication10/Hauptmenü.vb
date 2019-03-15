@@ -20,7 +20,7 @@ Public Class Hauptmenü
     Public NAM8 As String
     Public NAM9 As String
     Public NAM10 As String
-    Public SaveState As String
+    Public SaveState As String = ""
 
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
